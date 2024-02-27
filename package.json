@@ -1,0 +1,19 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "This project is my ALX portfolio project of the Webstack specialization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esubalew197/Node.js-Social-Media-REST-API-with-MongoDb.git"
+  },
+  "author": "Esubalew Million",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esubalew197/Node.js-Social-Media-REST-API-with-MongoDb/issues"
+  },
+  "homepage": "https://github.com/Esubalew197/Node.js-Social-Media-REST-API-with-MongoDb#readme"
+}
