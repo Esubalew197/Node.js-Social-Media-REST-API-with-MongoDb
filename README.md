@@ -22,23 +22,25 @@ git clone https://github.com/Esubalew197/Node.js-Social-Media-REST-API-with-Mong
 - Add the following variables:
   ```
   PORT=3000
-  MONGO_URL = mongodb+srv://newuser:o0nZk0JtvYevB82n@cluster0.i37ayuv.mongodb.net/selam-social?retryWrites=true&w=majority&appName=Cluster0
+  MONGO_URL = MONGODB_URI=your-mongodb-connection-string
   ```
 
 4. Start the server:
 npm start
 
 ## API Endpoints
-- `POST /api/users/register`: Register a new user
-- `POST /api/users/login`: Log in an existing user
-- `GET /api/posts`: Get all posts
+- `POST /api/auth/register`: Register a new user
+- `POST /api/auth/login`: Log in an existing user
+- `PUT /api//api/users/:id`: Update a user
+- `DELETE /api//api/users/:id`: Delete a user
+- `DELETE /api//api/users/:id`: GET a user
+- `PUT /api//api/users/:id/follow`: Follow a user
+- `PUT /api//api/users/:id/unfollow`: Unfollow a user
 - `POST /api/posts`: Create a new post
 - `PUT /api/posts/:id`: Update a post
 - `DELETE /api/posts/:id`: Delete a post
-- … (add more endpoints as needed)
+- `GET /api/posts/timeline/all`: Get all posts
+- `PUT /api/posts/:id/like`: Like and dislike a post
 
 ## Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
