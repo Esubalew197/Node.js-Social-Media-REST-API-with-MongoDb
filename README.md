@@ -33,7 +33,7 @@ npm start
 - `POST /api/auth/login`: Log in an existing user
 - `PUT /api/users/:id`: Update a user
 - `DELETE /api/users/:id`: Delete a user
-- `DELETE /api/users/:id`: GET a user
+- `GET /api/users/:id`: GET a user
 - `PUT /api/users/:id/follow`: Follow a user
 - `PUT /api/users/:id/unfollow`: Unfollow a user
 - `POST /api/posts`: Create a new post
