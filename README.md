@@ -31,11 +31,11 @@ npm start
 ## API Endpoints
 - `POST /api/auth/register`: Register a new user
 - `POST /api/auth/login`: Log in an existing user
-- `PUT /api//api/users/:id`: Update a user
-- `DELETE /api//api/users/:id`: Delete a user
-- `DELETE /api//api/users/:id`: GET a user
-- `PUT /api//api/users/:id/follow`: Follow a user
-- `PUT /api//api/users/:id/unfollow`: Unfollow a user
+- `PUT /api/users/:id`: Update a user
+- `DELETE /api/users/:id`: Delete a user
+- `DELETE /api/users/:id`: GET a user
+- `PUT /api/users/:id/follow`: Follow a user
+- `PUT /api/users/:id/unfollow`: Unfollow a user
 - `POST /api/posts`: Create a new post
 - `PUT /api/posts/:id`: Update a post
 - `DELETE /api/posts/:id`: Delete a post
